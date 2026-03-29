@@ -2,7 +2,7 @@
 
 Fork and deploy your own AI agent with email, phone, and card capabilities.
 
-This template creates an AI-powered email agent using [Anima](https://anima.email) + [OpenAI](https://openai.com). It receives incoming emails via webhooks, uses GPT-4o to generate intelligent replies, and sends them back through Anima — all in ~150 lines of Python.
+This template creates an AI-powered email agent using [Anima](https://useanima.sh) + [OpenAI](https://openai.com). It receives incoming emails via webhooks, uses GPT-4o to generate intelligent replies, and sends them back through Anima — all in ~150 lines of Python.
 
 [![Run on Replit](https://replit.com/badge/github/anima-labs/agent-template)](https://replit.com/@anima/agent-template)
 
@@ -22,7 +22,7 @@ This template creates an AI-powered email agent using [Anima](https://anima.emai
 ## Prerequisites
 
 - **Python 3.9+**
-- **Anima API Key** — Sign up at [anima.email](https://anima.email) and get your API key from the dashboard
+- **Anima API Key** — Sign up at [useanima.sh](https://useanima.sh) and get your API key from the dashboard
 - **OpenAI API Key** — Get one at [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
 
 ## Quick Start
@@ -67,7 +67,7 @@ The server starts on port 5000 (configurable via `PORT` in `.env`).
 
 ### 5. Register Your Webhook
 
-Point Anima to your server's webhook URL. You can do this from the [Anima dashboard](https://anima.email) or via the SDK:
+Point Anima to your server's webhook URL. You can do this from the [Anima dashboard](https://useanima.sh) or via the SDK:
 
 ```python
 from anima import Anima
@@ -208,7 +208,7 @@ These platforms auto-detect the `Dockerfile`. Just connect your repo, set enviro
 
 ## API Reference
 
-- **Anima SDK** — [docs.anima.email](https://docs.anima.email)
+- **Anima SDK** — [docs.useanima.sh](https://docs.useanima.sh)
 - **OpenAI API** — [platform.openai.com/docs](https://platform.openai.com/docs)
 
 ## License
