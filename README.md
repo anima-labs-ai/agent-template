@@ -1,6 +1,6 @@
 # Anima Agent Template
 
-Fork and deploy your own AI agent with email, phone, and card capabilities.
+Fork and deploy your own AI agent with email and phone capabilities.
 
 This template creates an AI-powered email agent using [Anima](https://useanima.sh) + [OpenAI](https://openai.com). It receives incoming emails via webhooks, uses GPT-4o to generate intelligent replies, and sends them back through Anima — all in ~150 lines of Python.
 
