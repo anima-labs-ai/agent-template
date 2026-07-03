@@ -85,6 +85,8 @@ client.webhooks.create(
 
 > **Tip:** For local development, use [ngrok](https://ngrok.com) to expose your local server: `ngrok http 5000`
 
+> **Securing the endpoint:** every delivery is HMAC-signed with `X-Anima-Signature`, and `main.py` verifies it. You can also have Anima present a bearer token or a custom header your server checks, plus cap the delivery rate, via [webhook advanced settings](https://docs.useanima.sh/docs/webhooks#advanced-settings).
+
 ## Architecture
 
 ```
